@@ -13,12 +13,12 @@ public class Employee extends Person {
 
         @Override
         public double PersonSalary() {
-            return (salary);
+            return  salary;
         }
 
         @Override
-        public double PersonHolyday() {
-            return (Holyday);
+        public int PersonHolyday() {
+            return  ((int)Holyday);
     }
 
     @Override
@@ -29,8 +29,8 @@ public class Employee extends Person {
                 ", Phone='" + Phone + '\'' +
                 ", Address='" + Address + '\'' +
                 ", Post='" + Post + '\'' +
-                ", salary=" + salary +
-                " Holyday=" + Holyday +
+                ", salary=" + PersonSalary() +
+                " Holyday=" + PersonHolyday() +
                 '}';
     }
 }

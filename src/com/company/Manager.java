@@ -17,11 +17,11 @@ public class Manager extends Person {
 
     @Override
     public double PersonSalary() {
-        return (salary*incrSalary);
+        return  (salary*incrSalary);
     }
 
     @Override
-    public double PersonHolyday() {
+    public int PersonHolyday() {
         return (Holyday + ExtraHolyday);
     }
 

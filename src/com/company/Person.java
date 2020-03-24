@@ -20,7 +20,7 @@ public abstract class Person {
 
     public abstract double PersonSalary();
 
-    public abstract double PersonHolyday();
+    public abstract int PersonHolyday();
 
 
 }
